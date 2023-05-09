@@ -1,0 +1,8 @@
+-cp src
+-lib heaps
+-lib hlsdl
+-hl bin/game.hl
+# Native code compilation
+# -hl bin/out/main.c
+-main Main
+-D windowSize=1366x768
